@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+section, nav, article, aside, header, footer, figure, figcaption, main, details, summary {
+	display: block;
+}
+
+body {
+	background-image: url("../images/purpleshapes.png");
+	background-color: #965F8A;
+}
+
+#container {
+	width: 1000px;
+	height: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #92ddd3;
+}
+
+header img {
+	padding: 10px;
+}
+
+nav {
+	background-color: #98618c;
+	text-align: center;
+}
+
+nav li {
+	display: inline;
+	margin: 15px;
+}

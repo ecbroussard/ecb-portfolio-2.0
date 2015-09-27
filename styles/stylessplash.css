@@ -18,8 +18,13 @@ img {
 	width: 1024px;
 	height: 768px;
 	position: absolute;
-	left: 50%;
-	margin-left: -512px;
+}
+
+@media screen and (min-width: 1024px) {
+	#splash {
+		left: 50%;
+		margin-left: -512px;
+	}
 }
 
 @media screen and (min-height: 768px) {

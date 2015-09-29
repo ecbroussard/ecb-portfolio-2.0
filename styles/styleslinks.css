@@ -50,8 +50,9 @@ nav li {
 
 footer li {
 	font-family: "hwt-artz", Arial, Helvetica, sans-serif;
-	border-left: 2px solid #49c6b6;
-	padding-left: 20px;
+	padding-left: 10px;
+	letter-spacing: 1px;
+
 }
 
 #first {
@@ -80,17 +81,28 @@ nav a:hover, #copyright a:hover {
 
 footer a:link {
 	color: #49c6b6;
-	text-decoration: none; 
+	text-decoration: none;
+	text-shadow: 1px 2px #1B515E; 
 }
 
 footer a:visited {
 	color: #49c6b6;
+	text-shadow: 1px 2px #1B515E; 
 }
 
-footer a:hover {
+footer a:hover, figcaption a:hover {
 	color: #1B515E;
+	text-shadow: none;
 }
 
+figcaption a:link {
+	color: #98618c;
+	text-decoration: none;
+}
+
+figcaption a:visited {
+	color: #98618c;
+}
 
 main {
 	padding-bottom: 20px;
@@ -157,14 +169,45 @@ aside h2 {
 
 #copyright {
 	color: white;
-	font-weight: bold;
+	font-size: 80%;
 	text-align: right;
 	margin-bottom: 0px;
 	margin-top: 5px;
-	margin-right: 40px;
+	margin-right: 60px;
 }
 
 #resume {
-display: block;
-text-align: center;
+	display: block;
+	text-align: center;
+}
+
+#resume img {
+	border: 1px solid #98618c;
+}
+
+#resumecontainer {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#resumecontainer section {
+	margin-top: 20px;
+}
+
+section h2 {
+	color: #98618c;
+}
+
+section ul, #notanli {
+	padding-left: 40px;
+}
+
+section.largeblock details {
+	margin-bottom: 10px;
+}
+
+section.skillsblock li {
+    font-size: 1.17em;
+    font-weight: bold;
 }

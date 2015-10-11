@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="https://use.typekit.net/auv5xal.js"></script>
+		<script>try{Typekit.load({ async: true });}catch(e){}</script>
+		<meta charset="UTF-8">
+		<title>ElaineBroussard.com - '90s Fan Site</title>
+		<link rel="stylesheet" href="styles/styles90sfansite.css" type="text/css">
+		<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<div id="container">
+			<header>
+					<img src="images/ecblogo.png" alt="logo" title="logo" width="500" />
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About Me</a></li>
+						<li><a href="resume.html">Résumé</a></li>
+						<li><a href="writing.html">Writing</a></li>
+						<li><a href="editing.html">Editing</a></li>
+						<li><a href="webdesign.html">Web Design</a></li>
+						<li><a href="graphicdesign.html">Graphic Design</a></li>
+						<li><a href="videos.html">Videos</a></li>
+						<li><a href="photography.html">Photography</a></li>
+					</ul>
+				</nav>
+			</header>
+			<main id="fansite">
+				<h1>'90s Fan Site</h1>
+				<p>I made this little page to pay homage to the best decade ever, the 1990s!</p>
+				<div id="form">
+					<h2>'90s Pop Culture Survey</h2>
+					<form action="mailto:elaine@elainebroussard.com" method="post" name="survey" id="survey">
+						<fieldset name="yourinfo" id="yourinfo">
+							<legend>Your Information</legend>
+							<label for="name">Name:</label>
+							<input type="text" name="name" id="name" size="30" placeholder="ex: Sally Smith" required />
+							<label for="email">Email:</label>
+							<input type="email" name="email" id="email" size="30" placeholder="ex: ssmith@mywebsite.com" required />
+							<label for="phone">Phone number:</label>
+							<input type="tel" name="phone" id="phone" size="30" placeholder="ex: 555-555-5555" />
+							<label for="birthday">Your birthday:</label>
+							<input type="date" name="birthday" id="birthday" />
+						</fieldset>
+						<fieldset name="surveyquestions" id="surveyquestions">
+							<legend>Survey Questions</legend>
+							<label class="question">Question 1 - What was your favorite '90s boy band?</label>
+							<label for="nsync">
+							<input type="radio" name="boybands" id="nsync" value="nsync" />
+							NSYNC
+							</label>
+							<label for="backstreetboys">
+							<input type="radio" name="boybands" id="backstreetboys" value="backstreetboys" />
+							Backstreet Boys
+							</label>
+							<label for="hanson">
+							<input type="radio" name="boybands" id="hanson" value="hanson" />
+							Hanson
+							</label>
+							<label for="boyz2men">
+							<input type="radio" name="boybands" id="boyz2men" value="boyz2men" />
+							Boyz II Men
+							</label>
+							<label class="question">Question 2 - How many of the following '90s toys did you used to own? (Check all that apply.)</label>
+							<label for="supersoaker">
+							<input type="checkbox" name="toys" id="supersoaker" value="supersoaker" />
+							Super Soaker
+							</label>
+							<label for="pogs">
+							<input type="checkbox" name="toys" id="pogs" value="pogs" />
+							Pogs
+							</label>
+							<label for="beaniebabies">
+							<input type="checkbox" name="toys" id="beaniebabies" value="beaniebabies" />
+							Beanie Babies
+							</label>
+							<label for="skydancer">
+							<input type="checkbox" name="toys" id="skydancer" value="skydancer" />
+							Sky Dancer
+							</label>
+							<label for="tamagotchi">
+							<input type="checkbox" name="toys" id="tamagotchi" value="tamagotchi" />
+							Tamagotchi
+							</label>
+							<label for="skip-it">
+							<input type="checkbox" name="toys" id="skip-it" value="skip-it" />
+							Skip-It
+							</label>
+							<label for="treasuretrolls">
+							<input type="checkbox" name="toys" id="treasuretrolls" value="treasuretrolls" />
+							Treasure Trolls
+							</label>
+							<label for="flannelshirts" class="question">Question 3 - How many flannel shirts did you own in the '90s?</label>
+							<select name="flannelshirts" id="flannelshirts">
+								<optgroup label="Number of flannel shirts">
+									<option value="none">None</option>
+									<option value="afew">A few</option>
+									<option value="several">Several</option>
+									<option value="alot">A lot</option>
+									<option value="awholeclosetfull">A whole closet full</option>
+								</optgroup>
+							</select>
+							<label for="memory" class="question">Question 4 - What is your favorite pop-culture-related memory from the '90s?</label>
+							<textarea name="memory" id="memory" rows="5" cols="30">Type your memory here.</textarea>
+							<input type="submit" name="submit" id="submit" value="Submit Survey" />
+							<input type="reset" name="reset" id="reset" value="Reset Survey" />
+						</fieldset>
+					</form>
+				</div>
+			</main>
+			<footer>
+				<ul>
+					<li id="first"><a href="index.html">Home</a></li>
+					<li><a href="about.html">About Me</a></li>
+					<li><a href="resume.html">Résumé</a></li>
+					<li><a href="writing.html">Writing</a></li>
+					<li><a href="editing.html">Editing</a></li>
+					<li><a href="webdesign.html">Web Design</a></li>
+					<li><a href="graphicdesign.html">Graphic Design</a></li>
+					<li><a href="videos.html">Videos</a></li>
+					<li><a href="photography.html">Photography</a></li>
+				</ul>
+					<p id="copyright">©2015 <a href="mailto:elaine@elainebroussard.com">Elaine Broussard</a></p>
+			</footer>
+		</div>
+	</body>
+</html>

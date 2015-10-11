@@ -1,0 +1,287 @@
+/*All styles from here to the next comment are identical to those within the styleslinks.css file.*/
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+section, nav, article, aside, header, footer, figure, figcaption, main, {
+	display: block;
+}
+
+body {
+	background-image: url("../images/purpleshapes.png");
+	background-color: #965F8A;
+	font-family: Lato, Arial, Helvetica, sans-serif;
+	color: #1B515E;
+}
+
+#container {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #92ddd3;
+}
+
+header img {
+	padding: 10px;
+}
+
+nav, footer {
+	background-color: #98618c;
+	text-align: center;
+	padding: 15px;
+}
+
+nav li, footer li {
+	display: inline;
+	margin-right: 12px;
+	padding-right: 10px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+nav li {
+	font-family: "felt-tip-roman", Lato, Arial, Helvetica, sans-serif;
+	background-color: #1B515E;
+	border-radius: 20px;
+	font-size: 125%;
+	padding-left: 10px;
+}
+
+footer li {
+	font-family: "hwt-artz", Arial, Helvetica, sans-serif;
+	padding-left: 10px;
+	letter-spacing: 1px;
+
+}
+
+#first {
+	border: none;
+}
+
+#toprow {
+	margin-bottom: 20px;
+	padding-top: 10px;
+}
+
+#bottomrow {
+	padding-bottom: 10px;
+}
+
+nav a:link, #copyright a:link {
+	color: white;
+	text-decoration: none; 
+}
+nav a:visited, #copyright a:visited {
+	color: white; 
+}
+nav a:hover, #copyright a:hover {
+	color: #49c6b6; 
+}
+
+footer a:link {
+	color: #49c6b6;
+	text-decoration: none;
+	text-shadow: 1px 2px #1B515E; 
+}
+
+footer a:visited {
+	color: #49c6b6;
+	text-shadow: 1px 2px #1B515E; 
+}
+
+footer a:hover, figcaption a:hover {
+	color: #1B515E;
+	text-shadow: none;
+}
+
+figcaption a:link {
+	color: #98618c;
+	text-decoration: none;
+}
+
+figcaption a:visited {
+	color: #98618c;
+}
+
+main {
+	padding-bottom: 20px;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+aside {
+	width: 350px;
+	background-color: #1B515E;
+	color: white;
+	float: right;
+	padding: 20px;
+	margin: 30px;
+	border-radius: 25px;
+}
+
+aside p {
+	font-size: 95%;
+}
+
+#biopic {
+	width: 204px;
+	float: left;
+	padding-right: 30px;
+	margin-bottom: -10px;
+}
+
+figure img {
+	border: 1px solid #1B515E;
+}
+
+figcaption {
+	text-align: center;
+	font-weight: bold;
+}
+
+article {
+	width: 700px;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+h1 {
+	font-family: "hwt-artz", Arial, Helvetica, sans-serif;
+	font-size: 300%;
+	text-align: center;
+	padding-top: 20px;
+	color: #98618c;
+}
+
+h2 {
+	font-family: "coquette", Lato, Arial, Helvetica, sans-serif;
+	font-size: 200%;
+	padding-bottom: 15px;
+}
+
+aside h2 {
+	text-align: center;
+}
+
+#copyright {
+	color: white;
+	font-size: 80%;
+	text-align: right;
+	margin-bottom: 0px;
+	margin-top: 5px;
+	margin-right: 60px;
+}
+
+#resume {
+	display: block;
+	text-align: center;
+}
+
+#resume img {
+	border: 1px solid #98618c;
+}
+
+#resumecontainer {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#resumecontainer section {
+	margin-top: 20px;
+}
+
+section h2 {
+	color: #98618c;
+}
+
+section ul, #notanli {
+	padding-left: 40px;
+}
+
+section.largeblock details {
+	margin-bottom: 10px;
+}
+
+section.skillsblock li {
+    font-size: 1.17em;
+    font-weight: bold;
+}
+
+/*Below this comment are styles for the '90s fan site.*/
+
+#fansite {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#fansite p {
+	text-align: center;
+}
+
+label, textarea {
+	display: block;
+}
+
+#form {
+	background-color: #cba6d1;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 20px;
+	border: 2px solid #1B515E;
+}
+
+#survey {
+	padding: 20px;
+}
+
+#form h2 {
+	text-align: center;
+	padding-top: 20px;
+}
+
+#yourinfo {
+	padding-bottom: 40px;
+}
+
+legend {
+	text-align: center;
+	text-decoration: underline;
+	font-size: 150%;
+	font-weight: bold;
+}
+
+.question, #yourinfo label {
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+input[type="text"], input[type="date"], input[type="email"], input[type="tel"], select, textarea {
+	border: 1px solid #1B515E;	
+	padding: 5px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+	margin-right: 5px;
+}
+
+input[type="submit"], input[type="reset"] {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	border-radius: 20px;
+	background-color: #1B515E;
+	color: white;
+	font-weight: bold;
+}
+input[type="submit"]:hover, input[type="reset"]:hover {
+	background-color: #92ddd3;

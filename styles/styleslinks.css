@@ -105,7 +105,7 @@ figcaption a:visited {
 }
 
 main {
-	padding-bottom: 20px;
+	padding: 25px;
 }
 
 p {
@@ -210,4 +210,18 @@ section.largeblock details {
 section.skillsblock li {
     font-size: 1.17em;
     font-weight: bold;
+}
+
+main a:link {
+	color: #98618c;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+main a:hover {
+	color: white;
+}
+
+main a:visited {
+	color: #98618c;
 }

@@ -149,6 +149,15 @@ article {
 	padding-right: 20px;
 }
 
+blockquote {
+	padding-left: 20px;
+	padding-bottom: 20px;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: bold;
+}
+
 h1 {
 	font-family: "hwt-artz", Arial, Helvetica, sans-serif;
 	font-size: 300%;
@@ -199,7 +208,7 @@ section h2 {
 	color: #98618c;
 }
 
-section ul, #notanli {
+section ul, #notanli, main ul {
 	padding-left: 40px;
 }
 
@@ -219,9 +228,28 @@ main a:link {
 }
 
 main a:hover {
-	color: white;
+	color: white !important;
 }
 
 main a:visited {
 	color: #98618c;
+}
+
+#mediawriting{
+	margin-bottom: 30px;
+}
+
+.articletitle {
+	margin-bottom: 30px;
+}
+
+.articlesubtitle {
+	margin-top: -30px;
+	color: #98618c;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#linksandterms {
+	margin-top: 20px;
 }

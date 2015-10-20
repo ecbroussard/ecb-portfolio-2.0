@@ -52,7 +52,6 @@ footer li {
 	font-family: "hwt-artz", Arial, Helvetica, sans-serif;
 	padding-left: 10px;
 	letter-spacing: 1px;
-
 }
 
 #first {
@@ -164,6 +163,7 @@ h1 {
 	text-align: center;
 	padding-top: 20px;
 	color: #98618c;
+	margin-bottom: 20px;
 }
 
 h2 {
@@ -254,32 +254,86 @@ main a:visited {
 	margin-top: 20px;
 }
 
-.needspace {
-	margin-bottom: 20px;
-}
-
 .before, .after {
-	width: 435px;
+	width: 700px;
 	border-radius: 25px;
 	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
 }
 
 .before {
 	background-color: #e0b8e7;
-	float: left;
-
+	border: 3px solid #1B515E;
 }
 
 .after {
 	background-color: #1B515E;
 	color: white;
-	float: right;
+	border: 3px solid white;
 }
 
 .before h4, .after h4 {
 	padding-top: 15px;
 }
-.clearboth {
-	clear: both;
-	padding-top: 20px;
+
+h4 {
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.video iframe {
+	display: block;
+	margin-left: auto;
+	margin-right: auto; 
+}
+
+.video {
+	margin-bottom: 40px;
+}
+
+#videomain, {
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+summary {
+	outline: none;
+}
+
+#webdesignmain {
+	width: 504px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#webdesignmain h3 {
+	text-align: center;
+}
+
+#webdesignmain section {
+	margin-bottom: 50px;
+}
+
+#newspaperpages {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto; 
+	margin-bottom: 20px;}
+
+#newspaperpages img {
+	width: 45%;
+	margin-right: 10px;
+ }
+
+#gallerypreview {
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#graphicdesignmain img {
+	border: 1px solid #1B515E;
 }
